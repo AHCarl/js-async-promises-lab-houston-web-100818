@@ -38,3 +38,7 @@ function trueAndFalseButtons() {
   let falseButton = document.querySelector('.red')
   return [trueButton, falseButton]
 }
+
+function toggleTrueAndFalseButtons() {
+  
+}
