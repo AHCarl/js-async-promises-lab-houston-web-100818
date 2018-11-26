@@ -40,5 +40,7 @@ function trueAndFalseButtons() {
 }
 
 function toggleTrueAndFalseButtons() {
-  for (let btn of trueAndFalseButtons())
+  for (let btn of trueAndFalseButtons()) {
+    
+  }
 }
