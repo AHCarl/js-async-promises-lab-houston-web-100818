@@ -21,15 +21,13 @@ function askQuestionThen(time) {
   })
 }
 
-
-
-function askQuestionThenRemoveQuestion(time) {
-   return askQuestionThen(time).then(removeQuestion);
-}
-
 function removeQuestion() {
   return new Promise((resolve, reject) => {
     questionContainer.innerHTML = '';
     resolve();
   })
+}
+
+function askQuestionThenRemoveQuestion(time) {
+   return askQuestionThen(time).then(removeQuestion);
 }
