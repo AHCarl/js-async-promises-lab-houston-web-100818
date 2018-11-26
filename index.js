@@ -5,3 +5,9 @@ const questions = [
 ]
 
 let question;
+
+function appendQuestion() {
+  let q = document.createElement("p");
+  q.innerHTML = questions["questionText"]
+  document.querySelector(".question-container").appendChild(q)
+}
