@@ -32,3 +32,4 @@ function removeQuestion() {
 function askQuestionThenRemoveQuestion(time) {
    return askQuestionThen(time).then(removeQuestion);
 }
+
