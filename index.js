@@ -22,7 +22,10 @@ function askQuestionThen(time) {
 }
 
 function removeQuestion() {
-  questionContainer.innerHTML = ''
+  return new Promise((resolve, reject) => {
+    questionContainer.innerHTML = ''
+    resolve();
+  })
 }
 
 function askQuestionThenRemoveQuestion(time) {
