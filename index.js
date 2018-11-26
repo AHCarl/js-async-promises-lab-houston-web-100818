@@ -34,5 +34,7 @@ function askQuestionThenRemoveQuestion(time) {
 }
 
 function trueAndFalseButtons() {
-  
+  let trueButton = document.querySelector('.green')
+  let falseButton = document.querySelector('.red')
+  return [trueButton, falseButton]
 }
