@@ -11,3 +11,7 @@ let question;
 function appendQuestion(question) {
   questionContainer.innerHTML = question.questionText;
 }
+
+function askQuestionThen(time) {
+  
+}
