@@ -46,5 +46,6 @@ function toggleTrueAndFalseButtons() {
 }
 
 function displayQuestionOnClick() {
-  let btn = document.querySelector('.')
+  let btn = document.querySelector('.waves-effect')
+  
 }
