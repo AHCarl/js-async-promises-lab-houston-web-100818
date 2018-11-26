@@ -8,6 +8,6 @@ const questionContainer = document.querySelector('.question-container')
 
 let question;
 
-function appendQuestion() {
-  questionContainer.innerHTML = question.questionText
+function appendQuestion(question) {
+  questionContainer.innerHTML = question.questionText;
 }
