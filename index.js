@@ -44,3 +44,7 @@ function toggleTrueAndFalseButtons() {
     btn.classList.toggle('hide');
   }
 }
+
+function displayQuestionOnClick() {
+  
+}
