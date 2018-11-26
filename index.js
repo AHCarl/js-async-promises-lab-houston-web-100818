@@ -25,6 +25,6 @@ function removeQuestion() {
   questionContainer.innerHTML = ''
 }
 
-function askQuestionThenRemoveQuestion() {
-  
+function askQuestionThenRemoveQuestion(time) {
+   return askQuestionThen(time).then(removeQuestion)
 }
