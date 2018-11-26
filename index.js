@@ -41,6 +41,6 @@ function trueAndFalseButtons() {
 
 function toggleTrueAndFalseButtons() {
   for (let btn of trueAndFalseButtons()) {
-    btn.querySelector
+    btn.querySelectorAll("btn")
   }
 }
