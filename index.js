@@ -4,10 +4,10 @@ const questions = [
   {questionText: "Goldfish only have a memory of about three seconds", answer: false}
 ]
 
+const questionContainer = document.querySelector('.question-container')
+
 let question;
 
 function appendQuestion() {
-  let q = document.createElement("p");
-  q.innerHTML = questions["questionText"]
-  document.querySelector(".question-container").appendChild(q)
+  questionContainer.innerHTML = question.questionText
 }
