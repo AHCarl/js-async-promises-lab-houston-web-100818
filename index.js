@@ -41,11 +41,14 @@ function trueAndFalseButtons() {
 
 function toggleTrueAndFalseButtons() {
   for (let btn of trueAndFalseButtons()) {
-    btn.classList.toggle('hide');
+    btn.classList.toggle('hide')
   }
 }
 
 function displayQuestionOnClick() {
-  let btn = document.querySelector('.waves-effect')
-  
+  let btn = document.querySelector('a.waves-effect')
+  btn.addEventListener('click', () => {
+    toggleTrueAndFalseButtons()
+    askQuestionThenRemoveQuestion(5000)
+  })
 }
