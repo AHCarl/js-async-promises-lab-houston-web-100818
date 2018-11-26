@@ -13,5 +13,6 @@ function appendQuestion(question) {
 }
 
 function askQuestionThen(time) {
+  question = questions[0]
   
 }
