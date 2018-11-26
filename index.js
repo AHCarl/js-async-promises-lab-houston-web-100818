@@ -20,3 +20,7 @@ function askQuestionThen(time) {
     }, time)
   })
 }
+
+function removeQuestion() {
+  questionContainer.remove()
+}
