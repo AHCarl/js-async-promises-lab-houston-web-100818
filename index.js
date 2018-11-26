@@ -14,5 +14,9 @@ function appendQuestion(question) {
 
 function askQuestionThen(time) {
   question = questions[0]
-  
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(question)
+    }, time)
+  })
 }
