@@ -29,5 +29,5 @@ function removeQuestion() {
 }
 
 function askQuestionThenRemoveQuestion(time) {
-   return askQuestionThen(time).then(removeQuestion)
+   return askQuestionThen(time).then(removeQuestion())
 }
