@@ -24,3 +24,7 @@ function askQuestionThen(time) {
 function removeQuestion() {
   questionContainer.innerHTML = ''
 }
+
+function askQuestionThenRemoveQuestion() {
+  
+}
