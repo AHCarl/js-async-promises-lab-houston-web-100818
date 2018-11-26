@@ -46,5 +46,5 @@ function toggleTrueAndFalseButtons() {
 }
 
 function displayQuestionOnClick() {
-  
+  let btn = document.querySelector('.')
 }
