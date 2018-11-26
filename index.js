@@ -40,5 +40,5 @@ function trueAndFalseButtons() {
 }
 
 function toggleTrueAndFalseButtons() {
-  
+  for (let)
 }
